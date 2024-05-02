@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""
-Basic Annotations - add
-Function to write a type-annotated function add
-Takes two float a, b and return their sum as float
-"""
+""" Basic annotations - add """
 
 
 def add(a: float, b: float) -> float:
-    """
-    type-annotated function
+    """ Type-annotated function add that takes a float arguments.
+        Args:
+            a: float type.
+            b: float type.
+        Return:
+            sum as a float type.
     """
     return a + b
